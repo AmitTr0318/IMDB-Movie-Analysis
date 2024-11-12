@@ -4,6 +4,7 @@
 Analyzed a comprehensive IMDb movie dataset using SQL and R to uncover insights into box office performance, ratings, and genre trends. Conducted extensive data cleaning and preparation in MySQL to ensure accuracy, then applied linear and non-linear regression models in R to identify correlations between variables like budget, runtime, and audience ratings. The analysis provided actionable insights on factors impacting movie success, supporting data-driven decisions in content and production planning.
 
 [Google Sheet Link](https://docs.google.com/presentation/d/1QuDumlZAwJw3Av4q6z0psOMCY9wRF0olIxrr94UJdKM/edit?usp=sharing)
+[Video Presentation Link](https://www.loom.com/share/aaa4a38ca38d46df9927d6138fcc24f1?sid=3b040325-7f18-4dcd-906c-5d7b6a159ebf)
 
 Tech Stack used:
 - SQL
