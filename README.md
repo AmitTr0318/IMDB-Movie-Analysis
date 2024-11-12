@@ -16,12 +16,12 @@ Business Question:
 Steps implemented:
 
 Data Cleaning:
--Handle missing values, remove duplicates,outlier detection, and standardize formats for fields like dates and genres.
--Remove irrelevant columns or rows to focus on key analysis variables (e.g., budget, runtime, ratings).
+- Handle missing values, remove duplicates,outlier detection, and standardize formats for fields like dates and genres.
+- Remove irrelevant columns or rows to focus on key analysis variables (e.g., budget, runtime, ratings).
 
 Database Setup in MySQL:
--Use the LOAD DATA INFILE command to upload the cleaned data into MySQL.
-Example command:
+- Use the LOAD DATA INFILE command to upload the cleaned data into MySQL.
+- Example command:
 **LOAD DATA INFILE 'path/to/yourfile.csv'
 INTO TABLE imdb_movies
 FIELDS TERMINATED BY ',' 
@@ -29,18 +29,18 @@ LINES TERMINATED BY '\n'
 IGNORE 1 LINES;**
 
 Exploratory Data Analysis (EDA) in SQL:
--Ran SQL queries to generate descriptive statistics (e.g., average ratings, distribution of genres).
+- Ran SQL queries to generate descriptive statistics (e.g., average ratings, distribution of genres).
 
 Statistical Analysis in R
--Export data from MySQL to R for statistical analysis and modeling.
--Run linear regression to explore relationships between numerical variables (e.g., budget vs. revenue).
--Apply non-linear regression models if relationships are complex or non-linear, for instance, using polynomial regression.
--Evaluate model accuracy using metrics like R-squared, Mean Absolute Error (MAE), or Root Mean Squared Error (RMSE).
--Interpret results to identify key factors impacting movie success.
+- Export data from MySQL to R for statistical analysis and modeling.
+- Run linear regression to explore relationships between numerical variables (e.g., budget vs. revenue).
+- Apply non-linear regression models if relationships are complex or non-linear, for instance, using polynomial regression.
+- Evaluate model accuracy using metrics like R-squared, Mean Absolute Error (MAE), or Root Mean Squared Error (RMSE).
+- Interpret results to identify key factors impacting movie success.
 
 Insights & Reporting:
--Summarize key findings from regression analyses and EDA, identifying influential variables.
--Create charts and visual summaries to highlight trends or important relationships, using tools like Power BI, Tableau, or R visualization libraries.
+- Summarize key findings from regression analyses and EDA, identifying influential variables.
+- Create charts and visual summaries to highlight trends or important relationships, using tools like Power BI, Tableau, or R visualization libraries.
 
 
 
