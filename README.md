@@ -6,9 +6,9 @@ Analyzed a comprehensive IMDb movie dataset using SQL and R to uncover insights 
 [Google Sheet Link](https://docs.google.com/presentation/d/1QuDumlZAwJw3Av4q6z0psOMCY9wRF0olIxrr94UJdKM/edit?usp=sharing)
 
 Tech Stack used:
--SQL
--Excel
--R Programming
+*SQL
+*Excel
+*R Programming
 
 Business Question:
 - Which factors influence the success of movies on IMDB?
